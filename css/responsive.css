@@ -126,6 +126,8 @@
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
+    transform: translateX(0);
+    visibility: visible;
   }
 }
 /*---Smaller Tablets below 700px-- */
