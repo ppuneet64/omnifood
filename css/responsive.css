@@ -1,5 +1,5 @@
 /*---Smaller Desktop(1345px)-- */
-@media (max-width: 84rem) {
+@media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
@@ -11,7 +11,7 @@
   }
 }
 /*---Smaller Desktop(1200px) Tablet Landscapes-- */
-@media (max-width: 75rem) {
+@media (max-width: 75em) {
   html {
     font-size: 56.25%;
   }
@@ -40,7 +40,7 @@
 }
 
 /*---Smaller Desktop(900px) Tablets-- */
-@media (max-width: 59rem) {
+@media (max-width: 59em) {
   html {
     font-size: 50%;
   }
@@ -131,7 +131,7 @@
   }
 }
 /*---Smaller Tablets below 700px-- */
-@media (max-width: 44rem) {
+@media (max-width: 44em) {
   .grid--3--cols,
   .grid--4--cols {
     grid-template-columns: repeat(2, 1fr);
@@ -161,7 +161,7 @@
 }
 
 /*---Mobile Phones Screen 550px-- */
-@media (max-width: 34rem) {
+@media (max-width: 34em) {
   .grid {
     row-gap: 4.8rem;
   }
@@ -194,7 +194,7 @@
     grid-row: 5;
   }
   .step-text-image {
-    transform: translateY(2.4rem);
+    transform: translateY(2.4em);
   }
   .testimonials,
   .cta {
